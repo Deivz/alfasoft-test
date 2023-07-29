@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './AddContactForm.module.css'
+import FileButton from '../FileButton/FileButton'
 
 export default function AddContactForm() {
   return (
@@ -15,10 +16,9 @@ export default function AddContactForm() {
         <label htmlFor='email'>Email:</label>
         <input type='email' id='email' name='email' placeholder='your@email.com'/>
 
-        <label htmlFor='picture'>Picture:</label>
-        <input type='' id='picture' name='picture' />
+        <FileButton id='picture' label='Picture:' />
 
-        <button className={styles.button}>Add</button>
+       <button className={styles.button}>Add</button>
       </form>
     </div>
   )

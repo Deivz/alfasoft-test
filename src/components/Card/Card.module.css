@@ -1,0 +1,45 @@
+.card {
+  background-color: var(--blue);
+  border: solid 1px var(--dark-blue);
+  border-radius: 10px;
+  color: var(--white);
+  height: 9rem;
+  position: relative;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  justify-content: space-between;
+  padding: .5rem 0;
+  position: absolute;
+  right: .5rem;
+  width: 4rem;
+}
+
+.details {
+  align-items: center;
+  display: flex;
+  font-size: .875rem;
+  height: 10rem;
+  justify-content: space-between;
+  padding: 1rem .5rem;
+  width: 22.5rem;
+}
+
+.picture img {
+  border: solid 1px var(--dark-blue);
+  border-radius: 10px;
+  width: 6rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  height: 96px;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 15rem;
+}
