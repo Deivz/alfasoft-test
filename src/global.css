@@ -1,0 +1,35 @@
+:root {
+  --blue: #01A4DD;
+  --light-blue: #D1ECFF;
+  --dark-blue: #0B34A8;
+  --white: #FFFFFF;
+  --fonte: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--light-blue);
+  counter-reset: var(--dark-blue);
+  font-family: var(--fonte);
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 96%;
+}

@@ -1,0 +1,23 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+}
+
+.overlay {
+  right: 0;
+}
+
+.active .overlay {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  justify-content: center;
+  overflow-y: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 3;
+}
