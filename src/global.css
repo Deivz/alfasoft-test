@@ -1,5 +1,5 @@
 :root {
-  --blue: #01A4DD;
+  --blue: #1ab4ec;
   --light-blue: #D1ECFF;
   --dark-blue: #0B34A8;
   --white: #FFFFFF;
@@ -20,12 +20,15 @@ html {
 body {
   background-color: var(--light-blue);
   counter-reset: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
   font-family: var(--fonte);
   height: 100%;
 }
 
 main {
   flex-grow: 1;
+  min-height: calc(100vh - 12rem);
 }
 
 .container {

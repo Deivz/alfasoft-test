@@ -1,0 +1,14 @@
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  justify-content: center;
+}
+
+.footer h4 {
+  color: var(--dark-blue);
+  font-size: .875rem;
+  font-weight: 400;
+  text-align: center;
+}

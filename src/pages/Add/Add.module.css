@@ -1,0 +1,33 @@
+.addContainer {
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.illustration {
+  display: none;
+}
+
+@media (min-width: 1300px){
+  .addContainer {
+    background-color: white;
+    height: 39rem;
+    margin: 2rem auto;
+    width: 1200px;
+  }
+
+  .illustration {
+    display: block;
+  }
+
+  .illustration img {
+    height: 38rem;
+  }
+}
